@@ -51,6 +51,11 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
 
 ## 🖼 Screenshots
 
+<p align="center">
+  <img src="docs/images/gameplay.jpg" alt="CastleBounty gameplay" width="360"><br>
+  <i>Gameplay — the cursed castle awaits.</i>
+</p>
+
 | Main Menu | The Level |
 |---|---|
 | ![Main Menu](docs/images/mainnmenuu.png) | ![Level](docs/images/newmap.png) |
@@ -84,38 +89,6 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
 | ![Skeleton](docs/images/idleskeleton-.png) | **Skeleton Warrior** — relentless chaser. Gets back up. Never stops. |
 | ![Archer](docs/images/arrowskeleton.png) | **Skeleton Archer** — keeps distance, fires real arrow projectiles. |
 | ![Boss](docs/images/abosst.png) | **THE BOSS** — heavy strikes, combo attacks, and a health bar that taunts you. Bring your block. |
-
-## 🏆 Achievements
-
-```
-      ___________
-     '._==_==_=_.'
-     .-\:      /-.
-    | (|:.     |) |
-     '-|:.     |-'
-       \::.    /
-        '::. .'
-          ) (
-        _.' '._
-       `"""""""`
-```
-
-| Achievement | How to unlock |
-|---|---|
-| ☠️ **First Blood** | Destroy your first skeleton |
-| 💀 **Bone Collector** | Destroy 50 skeletons |
-| 🛡️ **Arrow Catcher** | Block 10 arrows in one run |
-| 🦇 **Pest Control** | Destroy a flying enemy |
-| 👑 **Bounty Claimed** | Defeat the Boss |
-| 🏃 **Untouchable** | Clear the level without taking damage |
-| 🪦 **Graveyard Regular** | Die 10 times. The castle remembers |
-| ⚔️ **Full Bounty** | Reach the Victory screen |
-| 🎖️ **Legend of the Castle** | Unlock every achievement above |
-
-<p align="center">
-  <img src="docs/images/gameplay.jpg" alt="CastleBounty gameplay" width="360"><br>
-  <i>The hunt in progress — will you earn them all?</i>
-</p>
 
 ## 🏅 Real-World Achievements
 
