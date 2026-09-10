@@ -51,11 +51,6 @@
 
 ## 🖼 游戏截图
 
-<p align="center">
-  <img src="docs/images/gameplay.jpg" alt="CastleBounty 游戏画面" width="360"><br>
-  <i>游戏画面 — 被诅咒的城堡在等待。</i>
-</p>
-
 | 主菜单 | 关卡 |
 |---|---|
 | ![主菜单](docs/images/mainnmenuu.png) | ![关卡](docs/images/newmap.png) |
@@ -116,6 +111,11 @@
 | 🪦 **墓地常客** | 死亡 10 次。城堡会记住你的 |
 | ⚔️ **全额赏金** | 到达胜利画面 |
 | 🎖️ **城堡传奇** | 解锁以上全部成就 |
+
+<p align="center">
+  <img src="docs/images/gameplay.jpg" alt="CastleBounty 游戏画面" width="360"><br>
+  <i>狩猎进行中 — 你能拿到全部成就吗?</i>
+</p>
 
 ## 🎮 操作方式
 

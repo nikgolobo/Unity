@@ -51,11 +51,6 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
 
 ## 🖼 Screenshots
 
-<p align="center">
-  <img src="docs/images/gameplay.jpg" alt="CastleBounty gameplay" width="360"><br>
-  <i>Gameplay — the cursed castle awaits.</i>
-</p>
-
 | Main Menu | The Level |
 |---|---|
 | ![Main Menu](docs/images/mainnmenuu.png) | ![Level](docs/images/newmap.png) |
@@ -116,6 +111,11 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
 | 🪦 **Graveyard Regular** | Die 10 times. The castle remembers |
 | ⚔️ **Full Bounty** | Reach the Victory screen |
 | 🎖️ **Legend of the Castle** | Unlock every achievement above |
+
+<p align="center">
+  <img src="docs/images/gameplay.jpg" alt="CastleBounty gameplay" width="360"><br>
+  <i>The hunt in progress — will you earn them all?</i>
+</p>
 
 ## 🎮 Controls
 
