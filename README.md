@@ -49,6 +49,11 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
 
 ## 🖼 Screenshots
 
+<p align="center">
+  <img src="docs/images/gameplay.jpg" alt="CastleBounty gameplay" width="360"><br>
+  <i>Gameplay — the cursed castle awaits.</i>
+</p>
+
 | Main Menu | The Level |
 |---|---|
 | ![Main Menu](docs/images/mainnmenuu.png) | ![Level](docs/images/newmap.png) |
