@@ -8,10 +8,11 @@
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Unity-2D%20Pixel--Art-black?style=for-the-badge&logo=unity" alt="Unity">
+  <img src="https://img.shields.io/badge/Unity-6%20(6000.5)-black?style=for-the-badge&logo=unity" alt="Unity 6">
   <img src="https://img.shields.io/badge/Genre-Action%20Platformer-8b5cf6?style=for-the-badge" alt="Genre">
   <img src="https://img.shields.io/badge/Platform-Web%20%2F%20PC-3b82f6?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/Status-In%20Development-10b981?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Status-In%20Development-f59e0b?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center"><b>English</b> | <a href="README.zh-CN.md">简体中文</a></p>
@@ -43,11 +44,15 @@
 
 ## ⚔ What is CastleBounty?
 
-**CastleBounty** is a 2D pixel-art action platformer built in **Unity**. You are a lone
+**CastleBounty** is a 2D pixel-art action platformer built in **Unity 6**. You are a lone
 bounty hunter descending into a cursed castle. Fight through waves of skeletons,
 dodge arrows, survive flying horrors — and face the thing waiting on the throne.
 
 Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
+
+Built by a teenage developer — weeks after completing a professional game-dev
+bootcamp, this entire project was coded from scratch. See
+[Real-World Achievements](#-real-world-achievements).
 
 ## 🖼 Screenshots
 
@@ -73,14 +78,13 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
      |    ..|      <- YOU: walk, jump, slash, BLOCK
 ```
 
-- **Tight pixel combat** — sword attacks, blocking, and precision movement
-- **Enemy AI** — skeletons that chase you across the map
-- **Ranged threats** — skeleton archers with real projectile arrows
+- **Tight pixel combat** — sword attacks, blocking (with a speed trade-off), and precision movement
+- **Smart enemy AI** — skeletons that chase you across the map
+- **Ranged threats** — skeleton archers firing real projectile arrows
 - **Flying enemies** — horrors that come from above
-- **A real BOSS fight** — multi-attack patterns, heavy attacks, boss health bar
+- **A real boss fight** — multi-attack patterns, heavy attacks, boss health bar
 - **Spawner system** — endless waves keep the pressure on
-- **Full game loop** — Menu → Level → Victory / Game Over
-- **Camera follow, health bars, scene management** — all hand-coded in C#
+- **Complete game loop** — Menu → Level → Victory / Game Over, with health bars and camera follow
 
 ## 💀 The Enemies
 
@@ -90,38 +94,25 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
 | ![Archer](docs/images/arrowskeleton.png) | **Skeleton Archer** — keeps distance, fires real arrow projectiles. |
 | ![Boss](docs/images/abosst.png) | **THE BOSS** — heavy strikes, combo attacks, and a health bar that taunts you. Bring your block. |
 
-## 🏅 Real-World Achievements
-
-Earned by the developer — not the bounty hunter.
-
-| Achievement | How it was unlocked |
-|---|---|
-| 🎓 **Bootcamp Graduate** | Completed the **First Professional GameDev Bootcamp for Teenagers** — *GameDev Studio Simulator* |
-| 🏝️ **Mediterranean Dev** | Built games at **Cyprus University of Technology**, Limassol — July 6–10, 2026 |
-| 🧠 **MIT Mentored** | Trained under **Kirill Krinkin** — MIT MISTI Mentor, Founder of JASS |
-| 🚀 **KidIT Certified** | Program by **KidIT Cyprus** & **CYGMA** — Head of Education Yulia Tarasova |
-
-<p align="center">
-  <img src="docs/images/certificate.jpg" alt="Certificate of Completion — Nikolai Goloborodko, First Professional GameDev Bootcamp for Teenagers" width="420"><br>
-  <i>Certificate of Completion — First Professional GameDev Bootcamp for Teenagers</i>
-</p>
-
 ## 🎮 Controls
 
 | Action | Key |
 |---|---|
-| Move | ← → / A D |
-| Jump | Space |
-| Attack | J / Left Click |
-| Block | K / Right Click |
+| Move | `A` `D` / `←` `→` |
+| Jump | `Space` |
+| Attack | `Left Mouse Button` |
+| Block | `F` — slows you down while held |
 
 ## 🛠 Tech Stack
 
-- **Engine:** Unity (2D, URP-ready)
-- **Language:** C# — 19 custom gameplay scripts
-- **Art:** Hand-drawn pixel sprites & animations
-- **Audio:** Retro 8-bit SFX
-- **Build targets:** WebGL, macOS, Windows
+| | |
+|---|---|
+| **Engine** | Unity 6 (6000.5.2f1) with URP |
+| **Language** | C# — 15 custom gameplay scripts |
+| **Input** | Unity's New Input System |
+| **Art** | Hand-drawn pixel sprites & animations |
+| **Audio** | Retro 8-bit SFX |
+| **Build targets** | WebGL, macOS, Windows |
 
 ## 📁 Project Structure
 
@@ -149,6 +140,8 @@ Assets/
 
 ## 🚀 Getting Started
 
+**Requirements:** Unity **6000.5.2f1** or newer.
+
 1. Clone the repo
    ```bash
    git clone https://github.com/nikgolobo/Unity.git
@@ -156,6 +149,22 @@ Assets/
 2. Open **Unity Hub** → *Add project from disk* → select the folder
 3. Open the `Level` scene and press **Play**
 4. Try to survive.
+
+## 🏅 Real-World Achievements
+
+Earned by the developer — not the bounty hunter.
+
+| Achievement | How it was unlocked |
+|---|---|
+| 🎓 **Bootcamp Graduate** | Completed the **First Professional GameDev Bootcamp for Teenagers** — *GameDev Studio Simulator* |
+| 🏝️ **Mediterranean Dev** | Built games at **Cyprus University of Technology**, Limassol — July 6–10, 2026 |
+| 🧠 **MIT Mentored** | Trained under **Kirill Krinkin** — MIT MISTI Mentor, Founder of JASS |
+| 🚀 **KidIT Certified** | Program by **KidIT Cyprus** & **CYGMA** — Head of Education Yulia Tarasova |
+
+<p align="center">
+  <img src="docs/images/certificate.jpg" alt="Certificate of Completion — Nikolai Goloborodko, First Professional GameDev Bootcamp for Teenagers" width="420"><br>
+  <i>Certificate of Completion — First Professional GameDev Bootcamp for Teenagers</i>
+</p>
 
 ## 📜 License & Credits
 

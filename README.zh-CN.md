@@ -8,10 +8,11 @@
 ```
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Unity-2D%20Pixel--Art-black?style=for-the-badge&logo=unity" alt="Unity">
+  <img src="https://img.shields.io/badge/Unity-6%20(6000.5)-black?style=for-the-badge&logo=unity" alt="Unity 6">
   <img src="https://img.shields.io/badge/Genre-Action%20Platformer-8b5cf6?style=for-the-badge" alt="Genre">
   <img src="https://img.shields.io/badge/Platform-Web%20%2F%20PC-3b82f6?style=for-the-badge" alt="Platform">
-  <img src="https://img.shields.io/badge/Status-In%20Development-10b981?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge" alt="MIT License">
+  <img src="https://img.shields.io/badge/Status-In%20Development-f59e0b?style=for-the-badge" alt="Status">
 </p>
 
 <p align="center"><a href="README.md">English</a> | <b>简体中文</b></p>
@@ -43,11 +44,14 @@
 
 ## ⚔ 什么是 CastleBounty?
 
-**CastleBounty** 是一款用 **Unity** 打造的 2D 像素风动作平台游戏。
+**CastleBounty** 是一款用 **Unity 6** 打造的 2D 像素风动作平台游戏。
 你是一名孤独的赏金猎人,潜入一座被诅咒的城堡。击退一波波骷髅,
 躲开冷箭,在飞天的恐怖怪物爪下求生——最后,面对王座上等待着你的那个东西。
 
 硬核战斗。复古灵魂。紫色魔光笼罩的黑暗奇幻氛围。
+
+由一名青少年开发者打造 —— 在完成专业游戏开发训练营的数周之后,
+独立从零写出了整个项目。详见[现实世界成就](#-现实世界成就)。
 
 ## 🖼 游戏截图
 
@@ -73,14 +77,13 @@
      |    ..|      <- 你:奔跑、跳跃、挥剑、格挡
 ```
 
-- **硬核像素战斗** — 挥剑攻击、格挡、精准走位
-- **敌人 AI** — 会全图追击你的骷髅兵
+- **硬核像素战斗** — 挥剑攻击、格挡(格挡时移动变慢)、精准走位
+- **智能敌人 AI** — 会全图追击你的骷髅兵
 - **远程威胁** — 骷髅弓箭手,发射真实的箭矢弹道
 - **飞行敌人** — 从天上扑下来的恐怖怪物
-- **真正的 BOSS 战** — 多种攻击模式、重击、还有嘲讽你的 Boss 血条
+- **真正的 Boss 战** — 多种攻击模式、重击、还有嘲讽你的 Boss 血条
 - **刷怪系统** — 无尽波次,压力不断
-- **完整游戏流程** — 主菜单 → 关卡 → 胜利 / 游戏结束
-- **镜头跟随、血条、场景管理** — 全部用 C# 手写实现
+- **完整游戏流程** — 主菜单 → 关卡 → 胜利 / 游戏结束,含血条与镜头跟随
 
 ## 💀 敌人图鉴
 
@@ -90,38 +93,25 @@
 | ![弓箭手](docs/images/arrowskeleton.png) | **骷髅弓箭手** — 保持距离,射出真实的箭矢弹道。 |
 | ![Boss](docs/images/abosst.png) | **BOSS** — 重击、连段攻击,还有一根嘲讽你的血条。记得格挡。 |
 
-## 🏅 现实世界成就
-
-由开发者获得 — 不是赏金猎人。
-
-| 成就 | 解锁方式 |
-|---|---|
-| 🎓 **训练营毕业生** | 完成**青少年游戏开发职业训练营** ——《游戏开发工作室模拟器》课程 |
-| 🏝️ **地中海开发者** | 于利马索尔**塞浦路斯理工大学**进行游戏开发 — 2026年7月6日至10日 |
-| 🧠 **MIT 导师指导** | 接受 **Kirill Krinkin** 指导 —— MIT MISTI 导师、JASS 创始人 |
-| 🚀 **KidIT 认证** | 课程由 **KidIT 塞浦路斯** 与 **CYGMA** 提供 —— 教育主管 Yulia Tarasova |
-
-<p align="center">
-  <img src="docs/images/certificate.jpg" alt="结业证书 — Nikolai Goloborodko,青少年游戏开发职业训练营" width="420"><br>
-  <i>结业证书 —— 青少年游戏开发职业训练营</i>
-</p>
-
 ## 🎮 操作方式
 
 | 动作 | 按键 |
 |---|---|
-| 移动 | ← → / A D |
-| 跳跃 | 空格 |
-| 攻击 | J / 鼠标左键 |
-| 格挡 | K / 鼠标右键 |
+| 移动 | `A` `D` / `←` `→` |
+| 跳跃 | `空格` |
+| 攻击 | `鼠标左键` |
+| 格挡 | `F` — 按住时移动变慢 |
 
 ## 🛠 技术栈
 
-- **引擎:** Unity(2D,URP-ready)
-- **语言:** C# — 19 个手写游戏脚本
-- **美术:** 手绘像素 sprites 与动画
-- **音效:** 复古 8-bit 音效
-- **构建目标:** WebGL、macOS、Windows
+| | |
+|---|---|
+| **引擎** | Unity 6(6000.5.2f1),使用 URP |
+| **语言** | C# — 15 个手写游戏脚本 |
+| **输入系统** | Unity 新 Input System |
+| **美术** | 手绘像素 sprites 与动画 |
+| **音效** | 复古 8-bit 音效 |
+| **构建目标** | WebGL、macOS、Windows |
 
 ## 📁 项目结构
 
@@ -149,6 +139,8 @@ Assets/
 
 ## 🚀 快速开始
 
+**要求:** Unity **6000.5.2f1** 或更高版本。
+
 1. 克隆仓库
    ```bash
    git clone https://github.com/nikgolobo/Unity.git
@@ -156,6 +148,22 @@ Assets/
 2. 打开 **Unity Hub** → *Add project from disk* → 选择项目文件夹
 3. 打开 `Level` 场景,点击 **Play**
 4. 努力活下来。
+
+## 🏅 现实世界成就
+
+由开发者获得 — 不是赏金猎人。
+
+| 成就 | 解锁方式 |
+|---|---|
+| 🎓 **训练营毕业生** | 完成**青少年游戏开发职业训练营** ——《游戏开发工作室模拟器》课程 |
+| 🏝️ **地中海开发者** | 于利马索尔**塞浦路斯理工大学**进行游戏开发 — 2026年7月6日至10日 |
+| 🧠 **MIT 导师指导** | 接受 **Kirill Krinkin** 指导 —— MIT MISTI 导师、JASS 创始人 |
+| 🚀 **KidIT 认证** | 课程由 **KidIT 塞浦路斯** 与 **CYGMA** 提供 —— 教育主管 Yulia Tarasova |
+
+<p align="center">
+  <img src="docs/images/certificate.jpg" alt="结业证书 — Nikolai Goloborodko,青少年游戏开发职业训练营" width="420"><br>
+  <i>结业证书 —— 青少年游戏开发职业训练营</i>
+</p>
 
 ## 📜 许可证与鸣谢
 
