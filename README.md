@@ -117,6 +117,22 @@ Tight combat. Retro soul. Dark fantasy atmosphere with a violet-magic glow.
   <i>The hunt in progress — will you earn them all?</i>
 </p>
 
+## 🏅 Real-World Achievements
+
+Earned by the developer — not the bounty hunter.
+
+| Achievement | How it was unlocked |
+|---|---|
+| 🎓 **Bootcamp Graduate** | Completed the **First Professional GameDev Bootcamp for Teenagers** — *GameDev Studio Simulator* |
+| 🏝️ **Mediterranean Dev** | Built games at **Cyprus University of Technology**, Limassol — July 6–10, 2026 |
+| 🧠 **MIT Mentored** | Trained under **Kirill Krinkin** — MIT MISTI Mentor, Founder of JASS |
+| 🚀 **KidIT Certified** | Program by **KidIT Cyprus** & **CYGMA** — Head of Education Yulia Tarasova |
+
+<p align="center">
+  <img src="docs/images/certificate.jpg" alt="Certificate of Completion — Nikolai Goloborodko, First Professional GameDev Bootcamp for Teenagers" width="420"><br>
+  <i>Certificate of Completion — First Professional GameDev Bootcamp for Teenagers</i>
+</p>
+
 ## 🎮 Controls
 
 | Action | Key |
