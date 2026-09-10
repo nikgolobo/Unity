@@ -1,0 +1,8 @@
+{
+  "files": [
+    "Documents/CastleBountyVault/CastleBounty Website.html"
+  ],
+  "insertBefore": "</body>",
+  "commentSyntax": "html",
+  "cspChecked": true
+}
