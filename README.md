@@ -14,6 +14,8 @@
   <img src="https://img.shields.io/badge/Status-In%20Development-10b981?style=for-the-badge" alt="Status">
 </p>
 
+<p align="center"><b>English</b> | <a href="README.zh-CN.md">简体中文</a></p>
+
 <p align="center"><i>Cursed. Tight. Legendary.</i></p>
 
 ```
@@ -142,7 +144,9 @@ Assets/
 ## 📜 License & Credits
 
 Made with ☠️ and Unity by **nikgolobo**.
-Sprites, animations and code are original work. Sound: retro 8-bit.
+
+- **Code:** [MIT License](LICENSE) — free to use, copy, modify and distribute.
+- **Sprites, animations & audio:** original works by nikgolobo — all rights reserved.
 
 ---
 
